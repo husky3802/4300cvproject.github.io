@@ -1,0 +1,264 @@
+body {
+    margin: 0px;
+}
+
+html {
+    background-color: rgb(107, 140, 174);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(143, 197, 215);
+}
+
+nav {
+    background-color: lightgray;
+    border-radius: 0 0 20px 20px;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    font-style: italic;
+    margin-right: 10px;
+    color: blue;
+}
+
+nav a:hover {
+    color: rgb(143, 197, 215);
+}
+
+footer {
+    background-color: lightgray;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-weight: bold;
+    margin-right: 10px;
+    color: blue;
+}
+
+footer a:hover {
+    color: rgb(143, 197, 215);
+}
+
+.one {
+    background-color: rgb(107, 140, 174);
+    margin: 0;
+    text-align: center;
+}
+
+.two {
+    background-color: rgb(193, 230, 230);
+    padding-bottom: 50px;
+    margin: 0;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.three {
+    background-color: rgb(193, 230, 230);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.headshot {
+    margin-top: 30px;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border-width: 1px;
+    border-style: solid;
+    margin: 1.5px;
+}
+
+h1 {
+    padding-top: 20%;
+    font-family: 'ADLaM Display', cursive;
+    font-size: 600%;
+    margin-bottom: 40px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.h2pad {
+    padding-top: 50px;
+}
+
+.h2color {
+    color: white;
+}
+
+.red {
+    color: red;
+    display: inline;
+    font-size: 130%;
+    font-style: italic;
+}
+
+.mountain {
+    margin-top: 7%;
+    width: 100%;
+    height: auto;
+}
+
+.bird {
+    position: absolute;
+    width: 400px;
+    margin-right: 600px;
+    display: block;
+}
+
+.cloud {
+    position: absolute;
+    padding-top: 100px;
+    margin-left: 70%;
+    width: 300px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5% 10% 10% 10%;
+}
+
+.card {
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    justify-self: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    margin: 0 auto;
+}
+
+.con-body .card {
+    width: 60%;
+}
+
+.cardico {
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 1%;
+    padding: 0;
+    text-align: center;
+}
+
+.langs {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.langs li {
+    list-style: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-bottom: 1%;
+}
+
+.exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.exp li {
+    list-style: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-bottom: 10%;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+.skills li {
+    list-style: none;
+    padding-bottom: 10%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.centered {
+    text-align: center;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2%;
+    margin: 5% 0 2%;
+}
+
+.formgrid {
+    display: grid;
+    grid-template-columns: [first] 33% [second] auto [end];
+    text-align: center;
+}
+
+.item-one {
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+}
+
+.item-two {
+    padding-bottom: 6%;
+    margin-bottom: 5%;
+}
+
+.item-three {
+    padding: 3% 0;
+}
+
+.address {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5% 0 8%;
+}
+
+.h2-alt {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.basic {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.dotted {
+    border-style: dotted;
+    border-width: 20px 0 0 0;
+    margin: 5% auto 10%;
+    width: 70%;
+    color:rgb(56, 56, 56);
+}
